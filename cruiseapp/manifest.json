@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "My Awesome App",
+    "short_name": "AwesomeApp",
+    "description": "This app does amazing things!",
+    "version": "1.0.0"
+   
+      
+
+  }
+  
