@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Auth0Provider } from '@auth0/auth0-react';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,13 +20,15 @@ root.render(
   </React.StrictMode>
 );
 
-fetch('https://raw.githubusercontent.com/tamjamesokta/Cruise0_React/main/manifest.json')
-  .then(response => response.json())  // Parse the JSON response
-  .then(data => {
-    console.log('Manifest data:', data); // You can now work with the data here
-    // For example, if you're setting the manifest data somewhere in your app
-  })
-  .catch(error => console.error('Error fetching manifest:', error));
-
-reportWebVitals();
+fetch('https://api.example.com/data', {
+  method: 'GET', // or 'POST', 'PUT', etc.
+  credentials: 'include',
+  headers: {
+    'Content-Type': 'application/json'
+    // Add any other necessary headers
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
 
