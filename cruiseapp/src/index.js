@@ -20,5 +20,13 @@ root.render(
   </React.StrictMode>
 );
 
+fetch('https://raw.githubusercontent.com/tamjamesokta/Cruise0_React/main/manifest.json')
+  .then(response => response.json())  // Parse the JSON response
+  .then(data => {
+    console.log('Manifest data:', data); // You can now work with the data here
+    // For example, if you're setting the manifest data somewhere in your app
+  })
+  .catch(error => console.error('Error fetching manifest:', error));
+
 reportWebVitals();
 
