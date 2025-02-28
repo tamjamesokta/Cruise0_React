@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "//github.com/tamjamesokta/Cruise0_React/static/css/main.e0e4c406.css",
+    "main.js": "//github.com/tamjamesokta/Cruise0_React/static/js/main.efd9756a.js",
+    "static/js/453.82ca94da.chunk.js": "//github.com/tamjamesokta/Cruise0_React/static/js/453.82ca94da.chunk.js",
+    "static/media/medi.jpg": "//github.com/tamjamesokta/Cruise0_React/static/media/medi.09d9f5e3cfe83e576f2a.jpg",
+    "static/media/caribbean.jpg": "//github.com/tamjamesokta/Cruise0_React/static/media/caribbean.c38a639f7d3749ae08f1.jpg",
+    "static/media/bali.jpg": "//github.com/tamjamesokta/Cruise0_React/static/media/bali.2b4b3af6302fcdfbfe48.jpg",
+    "static/media/cruiselogo.jpg": "//github.com/tamjamesokta/Cruise0_React/static/media/cruiselogo.44e8c2e9cbbf0df7929c.jpg",
+    "index.html": "//github.com/tamjamesokta/Cruise0_React/index.html",
+    "main.e0e4c406.css.map": "//github.com/tamjamesokta/Cruise0_React/static/css/main.e0e4c406.css.map",
+    "main.efd9756a.js.map": "//github.com/tamjamesokta/Cruise0_React/static/js/main.efd9756a.js.map",
+    "453.82ca94da.chunk.js.map": "//github.com/tamjamesokta/Cruise0_React/static/js/453.82ca94da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e4c406.css",
+    "static/js/main.efd9756a.js"
+  ]
+}
