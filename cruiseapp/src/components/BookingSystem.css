@@ -37,3 +37,14 @@
     background-color: #218838;
   }
   
+  .booking-system-container {
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Adjust as needed */
+    max-width: 1000px; /* Adjust as needed */
+    margin: 0 auto; /* This centers the container horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

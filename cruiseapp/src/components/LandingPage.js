@@ -20,9 +20,8 @@ function LandingPage() {
     <div className="landing-page">
       <img src={images[currentImage]} alt="Travel Destination" />
       <div className="landing-page-content">
-        <h1>Explore the World with Us</h1>
-        <p>Discover new destinations and create unforgettable memories.</p>
-        <button className="get-started-button">Get Started</button>
+
+      
       </div>
     </div>
   );

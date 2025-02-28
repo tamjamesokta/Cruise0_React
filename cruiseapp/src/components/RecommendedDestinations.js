@@ -1,11 +1,14 @@
 import React from 'react';
 import './RecommendedDestinations.css';
+import baliImage from '../images/bali.jpg';
+import caribbeanImage from '../images/caribbean.jpg';
+import mediImage from '../images/medi.jpg'
 
 const destinations = [
-  { id: 1, name: 'Caribbean', image: '/path-to-caribbean.jpg' },
-  { id: 2, name: 'Mediterranean', image: '/path-to-mediterranean.jpg' },
-  { id: 3, name: 'Alaska', image: '/path-to-alaska.jpg' },
-];
+    { id: 1, name: 'Caribbean', image: caribbeanImage },
+    { id: 2, name: 'Mediterranean', image: mediImage },
+    { id: 3, name: 'Alaska', image: baliImage },
+  ];
 
 function RecommendedDestinations() {
   return (
